@@ -2,6 +2,8 @@
  * SimpleKit Imperative UI Mode
  */
 
+import { SKImage } from './widget/image'; 
+
 // events
 export * from "./events";
 // functions
@@ -23,6 +25,8 @@ export type {
 } from "./windowing-system";
 // widgets
 export * from "./widget";
+//image
+export { SKImage } from './widget/image';
 // layout
 export * from "./layout";
 // settings
